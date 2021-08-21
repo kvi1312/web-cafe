@@ -1,0 +1,130 @@
+
+/* Header */
+
+.web-logo {
+    width: 12rem;
+    height: 12rem;
+}
+.font-size{
+    font-size: 30px;
+    font-style: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.mg-r{
+    margin-right: 2rem;
+}
+
+/* End Header */
+
+
+/* Search Bar */
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 2.5rem;
+    background-color: #fafbfd;
+    border-radius: 1.25rem;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 20rem;
+    caret-color:transparent;
+    line-height: 1.4rem;
+    transition: width 0.4s linear;
+}
+
+.searchbar .search_input{
+    padding: 0 10px;
+    caret-color:red;
+    transition: width 0.4s linear;
+}
+
+.searchbar .search_icon{
+    background: white;
+    color: #625ffd;
+}
+
+.search_icon{
+    height: 2rem;
+    width: 2rem;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+
+/* End Search Bar */
+
+
+/* Footer */
+
+
+.con-cl{
+    color:black;
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: darkblue;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+/* End Footer */
+
+
+
+.card-bg {
+    background-image: linear-gradient(to right top, #9ed4eb, #9dcdf6, #abc3fb, #c3b6f8, #e0a7e9);
+}
+
+.notification{
+    position: fixed;
+    top: 20px;
+    right: 20px ;
+    width: 20rem;
+    z-index: 10;
+}
